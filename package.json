@@ -1,0 +1,16 @@
+{
+  "name": "http-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon ./server/index.js",
+    "client": "npm run dev --prefix ./client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
