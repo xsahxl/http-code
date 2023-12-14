@@ -50,7 +50,7 @@
 `etag`是服务器返回给客户端的一个文件唯一标识，客户端下次请求时，会带上 `if-none-match` (就是 `etag` 的值)，服务器拿到这个标识和服务器当前的etag做对比，如果标识相同，那就告诉客户端可以使用缓存，返回304状态，否则返回新的资源。
 
 ## 流程图
-![image](http.png)
+![image](https://cdn.jsdelivr.net/gh/xsahxl/blog-images/http.png)
 
 
 
